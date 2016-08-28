@@ -7,4 +7,10 @@
 
 [Tutorials](http://kenyajl.readthedocs.org/en/latest/#tutorials) | [Documentation](http://kenyajl.readthedocs.org/) | [Release Notes](NEWS.md) | [Roadmap](https://github.com/hpoit/Kenya.jl/issues/1)
 
-Kenya is a Markov Logic Network for [Julia](http://julialang.org/), inspired by the works of Pedro Domingos, Stanford's Tuffy and Felix, Hélène Papadopoulos, and a few others.
+Kenya is a distributed Markov Logic Network for [Julia](http://julialang.org/), inspired by the works of Pedro Domingos, Stanford's Tuffy and Felix, Hélène Papadopoulos, and a few others.
+
+Key points will be listed after some code is done.
+
+## Installation
+
+## Hello World
