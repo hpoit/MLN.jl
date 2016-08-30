@@ -17,31 +17,29 @@ Key points will be listed after some code is done.
 
 Input, three parts
 
-1 - MLN program
+1. MLN program
 
-Predicate definitions
+  Predicate definitions
+    * *Friends(person, person)
+    * Smokes(person)
+    * Cancer(person)
+    
+    (* indicates all ground atoms/variables (person, person) of this predicate/constant (Friends) not listed in the evidence are false, i.e. closed world assumption)
 
-*Friends(person, person)
-Smokes(person)
-Cancer(person)
+  Rule definitions
+  * 0.5 !Smokes(a1) v Cancer(a1)
+  * 0.4 !Friends(a1,a2) v !Smokes(a1) v Smokes(a2)
+  * 0.4 !Friends(a1,a2) v !Smokes(a2) v Smokes(a1)
 
-Rule definitions
+2. Evidence
+* Friends(Anna, Bob)
+* Friends(Anna, Edward)
+* Friends(Anna, Frank)
+* Friends(Edward, Frank)
+* Friends(Gary, Helen)
+* !Friends(Gary, Frank)
+* Smokes(Anna)
+* Smokes(Edward)
 
-0.5 !Smokes(a1) v Cancer(a1)
-0.4 !Friends(a1,a2) v !Smokes(a1) v Smokes(a2)
-0.4 !Friends(a1,a2) v !Smokes(a2) v Smokes(a1)
-
-2 - Evidence
-
-Friends(Anna, Bob)
-Friends(Anna, Edward)
-Friends(Anna, Frank)
-Friends(Edward, Frank)
-Friends(Gary, Helen)
-!Friends(Gary, Frank)
-Smokes(Anna)
-Smokes(Edward)
-
-3 - Query
-
-Cancer(x)
+3. Query
+* Cancer(x)
