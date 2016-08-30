@@ -14,3 +14,30 @@ Key points will be listed after some code is done.
 ## Installation
 
 ## Hello World
+
+Input, three parts
+
+1. MLN program
+
+Predicate definitions
+*Friends(person, person)
+Smokes(person)
+Cancer(person)
+
+Rule definitions
+0.5 !Smokes(a1) v Cancer(a1)
+0.4 !Friends(a1,a2) v !Smokes(a1) v Smokes(a2)
+0.4 !Friends(a1,a2) v !Smokes(a2) v Smokes(a1)
+
+Evidence
+Friends(Anna, Bob)
+Friends(Anna, Edward)
+Friends(Anna, Frank)
+Friends(Edward, Frank)
+Friends(Gary, Helen)
+!Friends(Gary, Frank)
+Smokes(Anna)
+Smokes(Edward)
+
+Query
+Cancer(x)
