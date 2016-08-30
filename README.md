@@ -32,14 +32,14 @@ Input, three parts
   * 0.4 !Friends(a1,a2) v !Smokes(a2) v Smokes(a1)
 
 2. Evidence
-* Friends(Anna, Bob)
-* Friends(Anna, Edward)
-* Friends(Anna, Frank)
-* Friends(Edward, Frank)
-* Friends(Gary, Helen)
-* !Friends(Gary, Frank)
-* Smokes(Anna)
-* Smokes(Edward)
+  * Friends(Anna, Bob)
+  * Friends(Anna, Edward)
+  * Friends(Anna, Frank)
+  * Friends(Edward, Frank)
+  * Friends(Gary, Helen)
+  * !Friends(Gary, Frank)
+  * Smokes(Anna)
+  * Smokes(Edward)
 
 3. Query
-* Cancer(x)
+  * Cancer(x)
