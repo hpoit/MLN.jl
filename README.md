@@ -15,31 +15,12 @@ Key points will be listed after some code is done.
 
 ## Hello World
 
-Input, three parts
+Inputs, in three parts
 
 1. MLN program
-
-  Predicate definitions
-    * *Friends(person, person)
-    * Smokes(person)
-    * Cancer(person)
-    
-    (* indicates all ground atoms/variables (person, person) of this predicate/constant (Friends) not listed in the evidence are false, i.e. closed world assumption)
-
-  Rule definitions
-  * 0.5 !Smokes(a1) v Cancer(a1)
-  * 0.4 !Friends(a1,a2) v !Smokes(a1) v Smokes(a2)
-  * 0.4 !Friends(a1,a2) v !Smokes(a2) v Smokes(a1)
-
-2. Evidence
-  * Friends(Anna, Bob)
-  * Friends(Anna, Edward)
-  * Friends(Anna, Frank)
-  * Friends(Edward, Frank)
-  * Friends(Gary, Helen)
-  * !Friends(Gary, Frank)
-  * Smokes(Anna)
-  * Smokes(Edward)
+  * Predicate definitions (constants and variables)
+  * Rule definitions (constants and variables with weights) 
+  
+2. Evidence (observed constants and variables)
 
 3. Query
-  * Cancer(x)
