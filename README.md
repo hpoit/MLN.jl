@@ -17,19 +17,22 @@ Key points will be listed after some code is done.
 
 Input, three parts
 
-1. MLN program
+1 - MLN program
 
 Predicate definitions
+
 *Friends(person, person)
 Smokes(person)
 Cancer(person)
 
 Rule definitions
+
 0.5 !Smokes(a1) v Cancer(a1)
 0.4 !Friends(a1,a2) v !Smokes(a1) v Smokes(a2)
 0.4 !Friends(a1,a2) v !Smokes(a2) v Smokes(a1)
 
-Evidence
+2 - Evidence
+
 Friends(Anna, Bob)
 Friends(Anna, Edward)
 Friends(Anna, Frank)
@@ -39,5 +42,6 @@ Friends(Gary, Helen)
 Smokes(Anna)
 Smokes(Edward)
 
-Query
+3 - Query
+
 Cancer(x)
