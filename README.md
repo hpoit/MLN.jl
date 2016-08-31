@@ -35,7 +35,7 @@ Inputs, in three parts
    Marginal Query (user questions about an element within a world) 
    * e.g. Did Zika unreported cases in Greenland increase?
 
-Outpus, of two types
+Outputs, of two types
 
 1. MAP inference (broad learning)
    * e.g. Reported and unreported Zika cases increased for countries x, y, z
