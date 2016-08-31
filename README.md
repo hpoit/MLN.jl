@@ -9,6 +9,8 @@
 
 Kenya is a distributed [Markov Logic Network](https://en.wikipedia.org/wiki/Markov_logic_network) for [Julia](http://julialang.org/), inspired by the works of Pedro Domingos, Stanford's Tuffy and Felix, Hélène Papadopoulos, and a few others.
 
+Kenya is a unified learner, it can learn from any application.
+
 Key points will be listed after some code is done.
 
 ## Installation
@@ -18,9 +20,9 @@ Key points will be listed after some code is done.
 Inputs, in three parts
 
 1. MLN program
-  * Predicate definitions (constants and variables)
+  * Predicate definitions (constants and variables) (user beliefs)
   * Rule definitions (constants and variables with weights) 
   
 2. Evidence (observed constants and variables)
 
-3. Query
+3. Query (user questions about the closed or open world)
