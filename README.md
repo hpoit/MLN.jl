@@ -20,9 +20,9 @@ Key points will be listed after some code is done.
 Inputs, in three parts
 
 1. MLN program
-  * Predicate definitions (constants and variables) (user beliefs)
-  * Rule definitions (constants and variables with weights) 
+  * Predicate definitions (constants and variables) (user beliefs) (optional)
+  * Rule definitions (constants and variables with weights) (optional)
   
-2. Evidence (observed constants and variables)
+2. Evidence (observed constants and variables) (optional)
 
 3. Query (user questions about the closed or open world)
