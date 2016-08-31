@@ -20,15 +20,25 @@ Key points will be listed after some code is done.
 Inputs, in three parts
 
 1. MLN program
-  * Predicate definitions (constants and variables) (user beliefs) (optional), e.g. Zika reported *and* unreported cases increased after the 2016 Olympics
-  * Rule definitions (constants and variables with weights, 0.0-1.0) (optional), e.g. Belief is 0.9 that it did
+   * Predicate definitions (constants and variables) (user beliefs) (optional) 
+   * e.g. Zika reported *and* unreported cases increased after the 2016 Olympics
   
-2. Evidence (observed constants and variables) (optional), e.g. US, Hawaii, Canada, Cuba, Puerto Rico, Haiti, Brazil, Poland, Singapore     cases increased (consider as much data from all countries as possible)
+   * Rule definitions (constants and variables with weights, 0.0-1.0) (optional) 
+   * e.g. Belief is 0.9 that it did
+  
+2. Evidence (observed constants and variables) (optional) 
+   * e.g. US, Hawaii, Canada, Cuba, Puerto Rico, Haiti, Brazil, Poland, Singapore     cases increased (consider as much data from all countries as possible)
 
-3. MAP Query (user questions about a closed or open world), e.g. Did Zika cases, reported and not, increase for all countries?
-   Marginal Query (user questions about an element within a world), e.g. Did Zika unreported cases in Greenland increase?
+3. MAP Query (user questions about a closed or open world) 
+   * e.g. Did Zika cases, reported and not, increase for all countries?
+   
+   Marginal Query (user questions about an element within a world) 
+   * e.g. Did Zika unreported cases in Greenland increase?
 
 Outpus, two types
 
-1. MAP inference (broad learning), e.g. Reported and unreported Zika cases increased for countries x, y, z
-2. Marginal inference (narrow learning), e.g. Unreported Zika cases in Greenland increased by a likelihood of 64%
+1. MAP inference (broad learning)
+   * e.g. Reported and unreported Zika cases increased for countries x, y, z
+   
+2. Marginal inference (narrow learning) 
+   * e.g. Unreported Zika cases in Greenland increased by a likelihood of 64%
