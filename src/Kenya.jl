@@ -19,4 +19,4 @@ module Kenya
 # Run {COREF} operator
 # Optimize DMOS for {LR} operator of label with relevant clauses partitioned by approximate sequence id
 
-end Kenya
+end
