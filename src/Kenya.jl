@@ -1,6 +1,6 @@
 module Kenya
 
-# This is a reference layout for a distributed setting
+# Reference layout for a distributed setting
 
 # Database schema = 
 # Current directory = 
