@@ -1,1 +1,1 @@
-
+# Assigns a predicate to a conditional random field operator if a predicate has a key constraint (same syntax as LR) and appears in non-recursive rules or rules with linear chain recursion of the form 
