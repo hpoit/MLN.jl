@@ -27,7 +27,7 @@ Inputs, in three parts
    * e.g. Belief is 0.9 that it did
   
 2. Evidence (observed constants and variables) (optional) 
-   * e.g. US, Hawaii, Canada, Cuba, Puerto Rico, Haiti, Brazil, Poland, Singapore     cases increased (consider as much data from all countries as possible)
+   * e.g. US, Hawaii, Canada, Cuba, Puerto Rico, Haiti, Brazil, Poland, Singapore cases increased
 
 3. MAP Query (user questions about a closed or open world) 
    * e.g. Did Zika cases, reported and not, increase for all countries?
