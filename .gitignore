@@ -3,3 +3,5 @@
 *.jl.mem
 
 .Rhistory
+
+.DS_Store
