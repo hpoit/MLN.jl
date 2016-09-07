@@ -42,5 +42,3 @@ Outputs, of two types
 
 2. Marginal inference (narrow learning)
    * e.g. Unreported Zika cases in Greenland increased by a likelihood of 64%
-
-   test
