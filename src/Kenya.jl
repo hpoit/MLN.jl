@@ -1,4 +1,4 @@
-module Kenya
+using Kenya
 
 # Reference layout for a distributed setting
 
