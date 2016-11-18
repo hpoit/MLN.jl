@@ -1,7 +1,7 @@
 using BN
 using Base.Test
 
-@testset "Define Factor arguments, create instances, permute Factor" begin
+@testset "Define Factor fields, create instances, permute Factor" begin
 
   X = Factor(["B", "A"], [2, 3], rand(6))
   X.var
