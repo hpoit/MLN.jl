@@ -63,7 +63,7 @@ function FactorMargin(A::Factor, Remove_var::Vector{String}, Remain_var::Vector{
     Remain_card = A.card[Remain_dims]
 
     valuespace = reshape(A.value, A.card...)
-    permute_dims = [Remain_dims,Remove_dims]
+    permute_dims = [Remain_dims;Remove_dims]
     permuted_valuespace = permutedims(valuespace, permute_dims)
 
     squeeze_dims = [length(Remain_dims)+1:length(permute_dims)]
