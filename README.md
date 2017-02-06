@@ -1,4 +1,4 @@
-# MLN
+# Markov Logic Network
 
 [![Build Status](https://travis-ci.org/hpoit/Kenya.jl.svg?branch=master)](https://travis-ci.org/hpoit/Kenya.jl)
 [![Documentation Status](https://readthedocs.org/projects/kenyajl/badge/?version=latest)](http://kenyajl.readthedocs.org/)
