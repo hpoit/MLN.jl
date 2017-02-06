@@ -1,4 +1,4 @@
-# Kenya
+# MLN
 
 [![Build Status](https://travis-ci.org/hpoit/Kenya.jl.svg?branch=master)](https://travis-ci.org/hpoit/Kenya.jl)
 [![Documentation Status](https://readthedocs.org/projects/kenyajl/badge/?version=latest)](http://kenyajl.readthedocs.org/)
@@ -7,9 +7,9 @@
 
 [Tutorials](http://kenyajl.readthedocs.org/en/latest/#tutorials) | [Documentation](http://kenyajl.readthedocs.org/) | [Release Notes](NEWS.md) | [Roadmap](https://github.com/hpoit/Kenya.jl/issues/1)
 
-Kenya is a distributed [Markov Logic Network](https://en.wikipedia.org/wiki/Markov_logic_network) for [Julia](http://julialang.org/), inspired by the works of Pedro Domingos, Stanford's Tuffy and Felix, Hélène Papadopoulos, and a few others.
+MLN is a distributed [Markov Logic Network](https://en.wikipedia.org/wiki/Markov_logic_network) for [Julia](http://julialang.org/), inspired by the works of Pedro Domingos, Stanford's Tuffy and Felix, Hélène Papadopoulos, and a few others.
 
-Kenya is a unified learner, and can learn broadly or narrowly from any application.
+MLN is a unified learner, and can learn broadly or narrowly from any application.
 
 Key points will be listed after some code is done.
 
